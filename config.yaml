@@ -1,11 +1,16 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+# subject: 'cat:cs.*'
+subject: 'cat:cs.AI' OR 'cat:cs.CV' OR 'cat:cs.ML' OR 'cat:cs.LG'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        neural architecture search: 3
+        NAS: 3
+        transformer: 2
+        efficient: 1
+        adaptation: 1
+        prune: 1
+        quantize: 1
 
 # 通知の閾値
 score_threshold: 0
