@@ -6,10 +6,9 @@ subject: 'cat:cs.AI OR cat:cs.CV OR cat:cs.ML OR cat:cs.LG'
 keywords:
         neural architecture search: 3
         NAS: 3
+        parameter-efficient: 2
         transformer: 2
-        efficient: 1
-        adaptation: 1
-        prune: 1
+        prune: 2
         quantize: 1
 
 # 通知の閾値
